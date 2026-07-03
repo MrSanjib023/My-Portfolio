@@ -1,0 +1,200 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'Neu';
+    src: url('./NeueMachina-Regular.woff2') format('woff2'),
+
+}
+@font-face {
+    font-family: 'Audiowide';
+    src: url('./Audiowide-Regular.ttf') format('woff2'),
+
+}
+
+nav {
+    height: 70px;
+    width: 100%;
+    background-color: #010613;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+}
+
+.logo {
+    height: 70px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: Audiowide;
+}
+
+.logo span {
+    color: aqua;
+}
+
+.detailsec {
+    height: 70px;
+    width: 60%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: -100px;
+}
+
+.detailsec ul {
+    display: flex;
+    align-items: center;
+    gap: 3%;
+    height: 70px;
+    width: 45%;
+    width: auto;
+    list-style: none;
+}
+
+.detailsec ul li a {
+    list-style: none;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-family: neu;
+}
+
+.underline {
+    position: absolute;
+    bottom: 15px;
+    height: 2px;
+    background: aqua;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+
+.menu {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.cvdownload {
+    height: 40px;
+    width: 10%;
+    padding: 4px;
+    border: 3px solid rgb(112, 138, 222);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: neu;
+    font-size: 1vw;
+}
+.active{
+    margin-left: 0px !important;
+}
+
+@media (max-width: 850px) {
+    .cvdownload {
+        display: none;
+    }
+
+    .detailsec {
+        width: 70%;
+    }
+
+    .detailsec ul li a {
+        list-style: none;
+        text-decoration: none;
+        list-style-type: none;
+        color: white;
+        font-family: neu;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 620px) {
+    .detailsec {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        color: white;
+        height: 70px;
+        width: 60%;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .menu button {
+        background-color: transparent;
+        border: none;
+    }
+
+    .menu i {
+        color: white;
+
+    }
+
+    nav {
+        height: 50px;
+    }
+
+    .logo {
+        font-size: 10px;
+    }
+
+    .mobile-menu {
+        display: none;
+
+    }
+
+    .mobile-menu.active {
+        display: block;
+    }
+
+    .mobile-menu {
+        height: 265px;
+        width: 130px !important;
+        background-color: rgb(40, 77, 77);
+        position: absolute;
+        top: 50px;
+        right: 0px;
+        border-radius: 0px 0px 10px 10px;
+        z-index: 5;
+    }
+
+    .mobile-menu ul {
+        height: 271px;
+        width: 100%;
+        display: grid;
+        justify-content: space-around;
+        align-items: center;
+        width: auto;
+        list-style: none;
+        color: white;
+        padding: 0px 3px;
+    }
+
+    .mobile-menu ul li {
+        border-bottom: 1px solid black;
+        padding: 7px;
+        list-style: none;
+        color: white;
+        font-family: neu;
+        display: grid;
+        justify-content: center;
+    }
+    .mobile-menu ul li a{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+

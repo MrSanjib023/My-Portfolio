@@ -1,0 +1,191 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'Joshfine';
+    src: url('JosefinSans-Bold.ttf') format('woff2'),
+
+}
+
+footer {
+    height: fit-content;
+    width: 100%;
+    background-color: #010613;
+    display: flex;
+    justify-content: space-between;
+    padding: 4%;
+}
+
+.getTouch {
+    height: 200px;
+    width: 48%;
+}
+
+.getTouch h1 {
+    font-family: Joshfine;
+    font-size: 3.5vw;
+}
+
+.touchwith {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.touchUs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
+}
+
+#web1 {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(83, 83, 83);
+    border-radius: 20px 0px 20px 0px;
+}
+
+#web2 {
+    height: 150px;
+    width: 150px;
+    background-color: #040e28;
+    border-radius: 20px 0px 20px 0px;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    display: grid;
+    text-align: center;
+    align-content: center;
+    padding: 0px;
+    margin: 0px;
+    gap: 10px;
+
+}
+
+#web2 i {
+    padding: 0px;
+    margin: 5px 60px;
+}
+
+#web2 a {
+    text-decoration: none;
+    color: white;
+}
+
+#email1 {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(83, 83, 83);
+    border-radius: 20px 0px 20px 0px;
+}
+
+#email2 {
+    height: 150px;
+    width: 150px;
+    background-color: #040e28;
+    border-radius: 20px 0px 20px 0px;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+#email2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#email2 i {
+    padding: 0px;
+    margin: 0px 48px;
+}
+
+.footersociallink {
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+}
+
+.footersociallink i {
+    height: fit-content;
+    width: auto;
+    font-size: 15px;
+    padding: 9px;
+    border-radius: 50%;
+    background-color: rgb(47, 47, 47);
+    color: white;
+
+}
+
+.footersociallink i:hover {
+    background-color: #040e28;
+
+}
+
+@media (max-width: 431px) {
+    footer {
+        height: 530px;
+        width: 100%;
+        background-color: #010613;
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        padding: 6%;
+    }
+
+    .getTouch {
+        height: 200px;
+        width: 100%;
+    }
+
+    .touchwith {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0px;
+    }
+
+    .touchUs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 40px;
+        position: relative;
+        top: -60px;
+    }
+
+    .footersociallink {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 280px;
+        gap: 30px;
+    }
+
+    .footersociallink i {
+        height: fit-content;
+        width: auto;
+        font-size: 15px;
+        padding: 9px;
+        border-radius: 50%;
+        background-color: rgb(47, 47, 47);
+        color: white;
+
+    }
+
+    /* .sociallink {
+        position: relative;
+        top: 280px;
+    } */
+}
