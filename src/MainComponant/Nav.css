@@ -8,6 +8,7 @@
     src: url('./NeueMachina-Regular.woff2') format('woff2'),
 
 }
+
 @font-face {
     font-family: 'Audiowide';
     src: url('./Audiowide-Regular.ttf') format('woff2'),
@@ -95,7 +96,8 @@ nav {
     font-family: neu;
     font-size: 1vw;
 }
-.active{
+
+.active {
     margin-left: 0px !important;
 }
 
@@ -119,6 +121,18 @@ nav {
 }
 
 @media (max-width: 620px) {
+
+    nav {
+        height: 70px;
+        width: 100%;
+        background-color: #010613;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        z-index: 100;
+    }
+
     .detailsec {
         display: none;
     }
@@ -192,10 +206,9 @@ nav {
         display: grid;
         justify-content: center;
     }
-    .mobile-menu ul li a{
+
+    .mobile-menu ul li a {
         color: white;
         text-decoration: none;
     }
 }
-
-
