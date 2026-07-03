@@ -129,6 +129,7 @@ nav {
         height: 70px;
         width: 60%;
         justify-content: end;
+        padding-right: 30px;
         align-items: center;
     }
 
