@@ -177,7 +177,7 @@ nav {
     .mobile-menu {
         height: 265px;
         width: 130px !important;
-        background-color: rgb(40, 77, 77);
+        background-color: #0d6efd;
         position: absolute;
         top: 50px;
         right: 0px;

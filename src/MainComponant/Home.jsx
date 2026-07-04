@@ -14,6 +14,7 @@ import express from '../Photos/expressjs.png';
 import node from '../Photos/node.png';
 import projectimg1 from '../Photos/project1.png';
 import { useState, useEffect } from "react";
+import { motion } from "motion/react"
 
 
 const words = [
@@ -122,7 +123,16 @@ const Home = () => {
               </div>
             </div>
             <div className='heroRight'>
-              <img src={profileimg} id='profilephoto'></img>
+              <motion.img
+                animate={{
+                  y: [20, -20, 20]
+                }}
+                transition={{
+                  duration: 15,
+                  repeat: Infinity,
+                  ease: "easeInOut",
+                }}
+                src={profileimg} id='profilephoto'></motion.img>
             </div>
           </div>
         </div>
