@@ -325,7 +325,7 @@ const Home = () => {
         </div>
 
         <div className='projectsection' id='projects'>
-          <h1>PROJECTS</h1>
+          <h1 id='projecth1'>PROJECTS</h1>
           <div className='projectmain'>
             {Projects.map((work) => {
               return (
@@ -341,7 +341,7 @@ const Home = () => {
                         <li>{work.uselg3}</li>
                       </ul>
                     </div>
-                    <a href="#" className="btn btn-primary">Go to Website</a>
+                    <a href="https://project-m2zse.vercel.app" className="btn btn-primary">Go to Website</a>
                   </div>
                 </div>
               )

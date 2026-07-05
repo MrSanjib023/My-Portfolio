@@ -7,7 +7,7 @@ const Footer = () => {
     <>
       <footer className='footer' id='contact'>
         <div className='touchwith getTouch'>
-          <h1>Get in Touch</h1>
+          <h1>GET IN TOUCH</h1>
           <p>Let's build modern, scalable web applications together using the MERN stack.</p>
           <div className='footersociallink'>
             <a href='https://github.com/MrSanjib023'>

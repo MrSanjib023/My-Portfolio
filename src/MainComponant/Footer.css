@@ -1,5 +1,5 @@
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 @font-face {
@@ -188,4 +188,8 @@ footer {
         position: relative;
         top: 280px;
     } */
+    .getTouch h1 {
+        font-family: Joshfine;
+        font-size: 6vw;
+    }
 }
