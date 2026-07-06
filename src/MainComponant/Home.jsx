@@ -318,9 +318,9 @@ const Home = () => {
                   </div>
                 </div>
                 <div className='skillp'>
-                  <span>Postman</span>
+                  <span>Fremer Motion</span>
                   <div className='skillpercentage'>
-                    <div id='postmanfill'></div>
+                    <div id='fremermotionfill'></div>
                   </div>
                 </div>
               </div>
