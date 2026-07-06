@@ -877,6 +877,7 @@ main {
         display: grid;
         justify-content: center;
         align-items: center;
+        font-size: 15px;
     }
 
     .buttonsec button {
@@ -915,6 +916,9 @@ main {
         padding: 20px;
         display: grid;
         /* box-shadow: 10px 10px 50px rgba(130, 0, 102, 0.4); */
+    }
+    .profiletag h5{
+        margin-left: -100px;
     }
 
     .mystack {
