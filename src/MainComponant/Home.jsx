@@ -3,6 +3,7 @@ import './Home.css';
 import heroimg from '../Photos/background7.jpeg';
 import profileimg from '../Photos/Sanjib.png';
 import profileimg2 from '../Photos/sanjib2.jpg';
+import portfoliophoto from '../Photos/portfoliophoto.png'
 import html from '../Photos/html-5.png';
 import css from '../Photos/css.png';
 import js from '../Photos/js.png';
@@ -12,6 +13,7 @@ import github from '../Photos/github.png';
 import mongodb from '../Photos/mongodb.png';
 import express from '../Photos/expressjs.png';
 import node from '../Photos/node.png';
+import Fmotion from '../Photos/Fmotion.png';
 import projectimg1 from '../Photos/project1.png';
 import { useState, useEffect } from "react";
 import { motion } from "motion/react"
@@ -58,16 +60,18 @@ const Home = () => {
       des: "This is my first project. In this website backend not included.",
       uselg1: "Js",
       uselg2: "React.js",
-      uselg3: "Node.js"
+      uselg3: "Node.js",
+      link: "https://project-m2zse.vercel.app/"
 
     },
     {
-      projectName: "Hotel Website",
-      theme: projectimg1,
-      des: "This is my first project. In this website backend not included.",
+      projectName: "Portfolio Website",
+      theme: portfoliophoto,
+      des: "This is my second project. In this website backend not included.",
       uselg1: "Js",
       uselg2: "React.js",
-      uselg3: "Node.js"
+      uselg3: "Motion",
+      link: "https://my-portfolio-lake-mu-74.vercel.app/"
     },
     {
       projectName: "Hotel Website",
@@ -75,7 +79,7 @@ const Home = () => {
       des: "This is my first project. In this website backend not included.",
       uselg1: "Js",
       uselg2: "React.js",
-      uselg3: "Node.js"
+      uselg3: "Node.js" 
 
     }
   ]
@@ -214,8 +218,8 @@ const Home = () => {
                   <p>Github</p>
                 </div>
                 <div className='up'>
-                  <img src={node}></img>
-                  <p>NODE.js</p>
+                  <img src={Fmotion}></img>
+                  <p>FMotion</p>
                 </div>
               </div>
             </div>
@@ -341,7 +345,7 @@ const Home = () => {
                         <li>{work.uselg3}</li>
                       </ul>
                     </div>
-                    <a href="https://project-m2zse.vercel.app" className="btn btn-primary">Go to Website</a>
+                    <a href={work.link} className="btn btn-primary">Go to Website</a>
                   </div>
                 </div>
               )
